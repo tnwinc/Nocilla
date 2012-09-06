@@ -13,7 +13,7 @@ This library was inspired by [WebMock](https://github.com/bblimke/webmock) and i
 
 ## Limitations
 * At this moment only works with requests made with `NSURLConnection`, but it's possible to extend Nocilla to support more HTTP libraries. Nocilla has been tested with [AFNetworking](https://github.com/AFNetworking/AFNetworking) and [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)
-
+* It hasn't been tested in OS X, although I cannot think of a reason why it shouldn't. [More info](https://github.com/luisobo/Nocilla/issues/7)
 ## Installation
 _WIP_ (please, read: You figure it out, and then you tell me)
 
