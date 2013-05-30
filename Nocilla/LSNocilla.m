@@ -4,8 +4,8 @@
 NSString * const LSUnexpectedRequest = @"Unexpected Request";
 
 @interface LSNocilla ()
-@property (nonatomic, strong) NSMutableArray *mutableRequests;
-@property (nonatomic, strong) NSMutableArray *hooks;
+@property (atomic, strong) NSMutableArray *mutableRequests;
+@property (atomic, strong) NSMutableArray *hooks;
 @property (nonatomic, assign, getter = isStarted) BOOL started;
 
 - (void)loadHooks;

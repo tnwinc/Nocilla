@@ -8,7 +8,7 @@ extern NSString * const LSUnexpectedRequest;
 @interface LSNocilla : NSObject
 + (LSNocilla *)sharedInstance;
 
-@property (nonatomic, strong, readonly) NSArray *stubbedRequests;
+@property (atomic, strong, readonly) NSArray *stubbedRequests;
 - (void)start;
 - (void)stop;
 - (void)addStubbedRequest:(LSStubRequest *)request;
